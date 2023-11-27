@@ -21,6 +21,8 @@ public class Main3 {
         System.out.println("Inserisci il terzo lato del Triangolo");
         float latoT3 = Float.parseFloat(input.nextLine());
         System.out.println("L'area del rettangolo è : " + perimetroTriangolo(latoT1, latoT2, latoT3));
+
+        input.close();
     }
 
 
